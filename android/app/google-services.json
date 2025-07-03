@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "197103104400",
+    "project_id": "market-coop",
+    "storage_bucket": "market-coop.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:197103104400:android:9d7abdd8771ceb74410315",
+        "android_client_info": {
+          "package_name": "com.example.marketcoop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBN4BEf0Br9G4KKfsDHOGWVOqVpCIo7rks"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

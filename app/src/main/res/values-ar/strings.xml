@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ماركت كوب</string>
+
+    <!-- Profile -->
+    <string name="profile_load_failed">فشل تحميل الملف الشخصي</string>
+    <string name="name_empty">لا يمكن أن يكون الاسم فارغًا</string>
+    <string name="image_upload_failed">فشل تحميل الصورة</string>
+    <string name="profile_saved">تم حفظ الملف الشخصي</string>
+    <string name="profile_save_failed">فشل حفظ الملف الشخصي</string>
+    <string name="select_language">اختر اللغة</string>
+    <string name="english">الإنجليزية</string>
+    <string name="french">الفرنسية</string>
+    <string name="arabic">العربية</string>
+    <string name="upload_picture">تحميل صورة</string>
+    <string name="save">حفظ</string>
+
+    <!-- Auth -->
+    <string name="login">تسجيل الدخول</string>
+    <string name="register">إنشاء حساب</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="password">كلمة المرور</string>
+    <string name="confirm_password">تأكيد كلمة المرور</string>
+    <string name="already_have_account">لديك حساب بالفعل؟ تسجيل الدخول</string>
+    <string name="dont_have_account">ليس لديك حساب؟ إنشاء حساب</string>
+    <string name="all_fields_required">جميع الحقول مطلوبة</string>
+    <string name="passwords_do_not_match">كلمتا المرور غير متطابقتين</string>
+    <string name="registration_successful">تم التسجيل بنجاح</string>
+    <string name="registration_failed">فشل في التسجيل</string>
+    <string name="authentication_failed">فشل في المصادقة</string>
+    <string name="login_successful">تم تسجيل الدخول بنجاح</string>
+
+    <!-- Main/Menu -->
+    <string name="logout">تسجيل الخروج</string>
+    <string name="profile">الملف الشخصي</string>
+    <string name="products">المنتجات</string>
+    <string name="cart">عربة التسوق</string>
+    <string name="order_history">سجل الطلبات</string>
+
+    <!-- Product -->
+    <string name="add_to_cart">أضف إلى السلة</string>
+    <string name="category">الفئة</string>
+    <string name="price">السعر</string>
+    <string name="description">الوصف</string>
+
+    <!-- Cart -->
+    <string name="total">الإجمالي: $%1$.2f</string>
+    <string name="checkout">إتمام الشراء</string>
+    <string name="remove">إزالة</string>
+    <string name="cart_is_empty">عربة التسوق فارغة</string>
+    <string name="order_placed">تم تقديم الطلب!</string>
+    <string name="failed_to_place_order">فشل في تقديم الطلب</string>
+    <string name="failed_to_load_cart">فشل تحميل عربة التسوق</string>
+
+    <!-- Order -->
+    <string name="pending">قيد الانتظار</string>
+    <string name="order_status">حالة الطلب</string>
+    <string name="failed_to_load_orders">فشل تحميل الطلبات</string>
+
+    <!-- Notifications -->
+    <string name="order_update">تحديث الطلب</string>
+    <string name="order_status_changed">تم تغيير حالة طلبك.</string>
+</resources>
