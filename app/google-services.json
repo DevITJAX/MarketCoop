@@ -1,21 +1,22 @@
 {
+  "_comment": "WARNING: This is a template file. Replace all placeholder values with your own Firebase project configuration. Do NOT use this file in production.",
   "project_info": {
-    "project_number": "197103104400",
-    "project_id": "market-coop",
-    "storage_bucket": "market-coop.firebasestorage.app"
+    "project_number": "YOUR_PROJECT_NUMBER",
+    "project_id": "YOUR_PROJECT_ID",
+    "storage_bucket": "YOUR_STORAGE_BUCKET"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:197103104400:android:9d7abdd8771ceb74410315",
+        "mobilesdk_app_id": "YOUR_MOBILESDK_APP_ID",
         "android_client_info": {
-          "package_name": "com.example.marketcoop"
+          "package_name": "com.example.marketcop"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyBN4BEf0Br9G4KKfsDHOGWVOqVpCIo7rks"
+          "current_key": "YOUR_API_KEY"
         }
       ],
       "services": {

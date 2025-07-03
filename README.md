@@ -40,6 +40,18 @@ MarketCoop/
 - Android Studio/Xcode for mobile builds
 - Firebase account (for push notifications)
 
+### Firebase/Google Service Configuration
+**Important:** _You must set up your own Firebase project and download your own configuration files. Do not use any API keys or configuration files from this repository._
+
+1. Go to [Firebase Console](https://console.firebase.google.com/) and create a new project.
+2. Add an Android and/or iOS app to your Firebase project.
+3. Download the `google-services.json` (for Android) and/or `GoogleService-Info.plist` (for iOS) from the Firebase Console.
+4. Place `google-services.json` in `android/app/` and `app/` directories.
+5. Place `GoogleService-Info.plist` in `ios/Runner/` directory.
+6. **Do not commit these files to version control.**
+
+> **Warning:** Never share your API keys or Firebase configuration files publicly. Add `google-services.json` and `GoogleService-Info.plist` to your `.gitignore` file.
+
 ### Setup
 1. **Clone the repository:**
    ```bash
@@ -51,8 +63,7 @@ MarketCoop/
    flutter pub get
    ```
 3. **Configure Firebase:**
-   - Place your `google-services.json` (Android) in `android/app/` and `app/`.
-   - For iOS, add your `GoogleService-Info.plist` to `ios/Runner/`.
+   - Follow the steps above to add your own configuration files.
 4. **Run the app:**
    ```bash
    flutter run
